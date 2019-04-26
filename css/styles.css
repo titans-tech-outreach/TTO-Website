@@ -1,8 +1,35 @@
+.board-img{
+  background-image: url('images/indexImage.jpg');
+}
 
-.top-container {
+.tab-h1 {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 120px;
+  font-size: 80px;
+  font-family: 'Heebo', sans-serif;
+}
+.contact-img{
+  background-image: url('images/indexImage.jpg');
+}
+.events-img{
+  background-image: url('images/indexImage.jpg');
+}
+.projects-img{
+  background-image: url('images/indexImage.jpg');
+}
+.index-img{
   background-image: url('images/indexImage.jpg');
   height: 100%;
   max-width: 100%;
+  overflow-x: hidden;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-container {
   overflow-x: hidden;
   background-position: top;
   background-repeat: no-repeat;

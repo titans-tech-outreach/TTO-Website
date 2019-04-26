@@ -21,43 +21,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
-
-  	<!-- FULLCALENDAR -->
-  	<link href='fullcalendar/packages/core/main.css' rel='stylesheet' />
-  	<link href='fullcalendar/packages/daygrid/main.css' rel='stylesheet' />
-
-  	<script src='fullcalendar/packages/core/main.js'></script>
-  	<script src='fullcalendar/packages/daygrid/main.js'></script>
-  	<script src='fullcalendar/packages/google-calendar/main.js'></script>
-
-  	<link rel="stylesheet" href="fullcalendar/styles.css">
-  	<script>
-  		document.addEventListener('DOMContentLoaded', function() {
-  			var calendarEl = document.getElementById('calendar');
-  			var calendar = new FullCalendar.Calendar(calendarEl, {
-  				plugins: ['dayGrid', 'googleCalendar'],
-  				header: {
-  					// left: 'prev,next today',
-  					// center: 'title',
-  					// right: 'dayGridMonth,listYear'
-  				},
-
-  				displayEventTime: false, // don't show the time column in list view
-  				//API Key
-  				googleCalendarApiKey: 'AIzaSyBh6NkeB3NAqVUJ2KHxf8FHyqo9w5XY7lA',
-
-  				//this is the calendar ID
-  				events: 'csufshpe@gmail.com'
-  			});
-  			calendar.render();
-  		});
-  	</script>
-
-
   </head>
   <body>
 
-<section class="top-container">
+<section class="top-container index-img">
   <div class="navbar-container">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="index.html"> <img class="logo" src="images/logo.png" alt="TTO"></a>
@@ -73,13 +40,13 @@
             <a class="nav-link" href="projects.html">PROJECTS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="eventsCalendar.html">EVENTS</a>
+            <a class="nav-link" href="events.html">EVENTS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="boardMembers.html">BOARD MEMBERS</a>
+            <a class="nav-link" href="board.html">BOARD MEMBERS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contactUs.html">CONTACT US</a>
+            <a class="nav-link" href="contact.html">CONTACT US</a>
           </li>
         </ul>
       </div>
@@ -107,11 +74,6 @@
 
 </section>
 
-<section>
-
-    <div id='calendar'></div>
-
-  </section>
 
 <section class="bottom-container">
   <h3 class="bottom-container-h2">Community Code</h3>
