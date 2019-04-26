@@ -1,0 +1,139 @@
+
+.top-container {
+  background-image: url('images/indexImage.jpg');
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo{
+  max-width: 20%;
+  max-height: 20%;
+  opacity: .85;
+}
+.navbar-container {
+  font-weight: 800;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.top-container-h1 {
+  text-align: center;
+  color: white;
+  padding-top: 220px;
+  padding-bottom: 300px;
+  font-size: 100px;
+  font-family: 'Heebo', sans-serif;
+}
+
+.middle-container {
+  font-family: 'Mukta', sans-serif;
+  margin: 4.5% auto 4.5% 10%;
+  text-align: left;
+}
+
+.middle-container-h2 {
+  font-size: 50px;
+}
+
+.middle-container-p {
+  font-size: 25px;
+}
+
+.middle-container-icons {
+  color: #c8e6f5;
+  padding: 10px 15px 0px 15px;
+  transition-property: color;
+  transition-duration: .15s;
+  transition-timing-function: ease-out;
+}
+
+.middle-container-icons:hover,
+.middle-container-icons:focus {
+  color: #64b9e3;
+}
+
+
+.bottom-container {
+  background-color: #454444;
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+.bottom-container-h2 {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.bottom-container-icons {
+  color: white;
+  padding: 15px 20px 15px 20px;
+  transition-duration: .5s;
+  transition-timing-function: ease-out;
+}
+
+.bottom-container-icons:hover,
+.bottom-container-icons:focus {
+  color: #3d27ff;
+}
+
+/* experimenting (probably delete this) */
+/* @media (max-width: 768px){
+  .nav-item{
+    width: 100px;
+        border: 1px solid #fff;
+        border-radius: 18px;
+        outline: 0;
+        padding: 8px 12px;
+        text-align: center;
+        text-decoration: none;
+        font: bold 12px Verdana;
+        color: #fff;
+        background-color: #333;
+  }
+} */
+@media (max-width: 991.5px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+
+  .nav-item {
+    /* width: 100; */
+    border: 1px solid #fff;
+    border-radius: 5px;
+    /* outline: 0; */
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    /* font: bold 12px Verdana; */
+    /* color: #fff; */
+    background-color: rgb(24, 19, 94, 0.8);
+    transition-property: color, background-color;
+      transition-duration: .35s;
+      transition-timing-function: ease-out;
+  }
+
+
+  .nav-item:hover,
+  .nav-item:focus{
+      color: black;
+      background-color: #fff;
+
+  }
+  .nav-dark{
+    color: black;
+  }
+  .navbar{
+    background-color: rgb( 100, 185, 227, 0.8);
+  }
+}
