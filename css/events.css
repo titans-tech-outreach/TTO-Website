@@ -14,7 +14,12 @@ html, body {
   padding-bottom: 50px;
   color: white;
 }
-
+  .carousel-control-prev{
+    left: -12%;
+  }
+  .carousel-control-next{
+        left: 96%;
+  }
 @media (min-width: 768px) {
   /* show 3 items */
   .carousel-inner .active,
@@ -64,13 +69,7 @@ html, body {
     visibility: visible;
 
   }
-  .carousel-control-prev{
-    left: -12%;
-  }
-  .carousel-control-next{
-        left: 96%;
-        size: 150px;
-  }
+
   /* right or prev direction */
   .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
   .carousel-item-prev.carousel-item-right + .carousel-item,
