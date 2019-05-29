@@ -1,0 +1,52 @@
+/* The size of the cards */
+.projects-cards {
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+  border-radius: 5px;
+  /* 5px rounded corners */
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+
+.projects-cards:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* size of the image box */
+.projects-image {
+  width: auto;
+  height: 100%;
+}
+
+.projects-image img {
+  width: 100%;
+  height: 100%;
+  /* Add rounded corners to te top left and the top right corner of the image */
+  border-radius: 5px 5px 0 0;
+}
+
+.projects-content {
+  width: auto;
+  height: auto;
+}
+
+.projects-header {
+  width: auto;
+  height: auto;
+}
+
+.meta {
+  width: auto;
+  height: auto;
+}
+
+.projects-description {
+  width: auto;
+  height: auto;
+}
+
+.extra-content {
+  width: auto;
+  height: auto;
+}
